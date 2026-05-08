@@ -1,0 +1,10 @@
+#!/bin/bash
+
+choice=$(echo -e "󰂯 Power On\n󰂲 Power Off\n󰂰 Scan\n󰾰 Devices\n󰩈 Exit" | rofi -dmenu -mesg "Bluetooth")
+
+case "$choice" in
+  "󰂯 Power On") bluetoothctl power on ;;
+  "󰂲 Power Off") bluetoothctl power off ;;
+  "󰾰 Devices") ~/.config/rofi/scripts/btdevice.sh ;;
+  "󰩈 Exit") exit ;;
+esac
