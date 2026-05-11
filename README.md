@@ -33,4 +33,3 @@ The installer fully supports only hyprland for now. The scripts get installed in
 Planned Adittions:<br>
 > - Multi WM and DE support out of the box.<br>
 > - Selecting Keyboard shortcut during installation.<br>
-> - Scanning and paring devices.<br>
