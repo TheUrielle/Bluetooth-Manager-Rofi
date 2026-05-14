@@ -13,9 +13,15 @@ Installing Dependecies:<br>
 ```
 sudo pacman -Syu rofi git bluez
 ```
+```
+sudo systemctl enable --now bluez
+```
 > Ubuntu:<br>
 ```
 sudo apt update && sudo apt upgrade && sudo apt install rofi git bluez
+```
+```
+sudo systemctl enable --now bluez
 ```
 Adjust for your package manager<br>
 
@@ -33,3 +39,4 @@ The installer fully supports only hyprland for now. The scripts get installed in
 Planned Adittions:<br>
 > - Multi WM and DE support out of the box.<br>
 > - Selecting Keyboard shortcut during installation.<br>
+> - Fixing some weird glitches with the rofi windows.<br>
