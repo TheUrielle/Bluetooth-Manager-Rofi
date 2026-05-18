@@ -40,3 +40,4 @@ Planned Adittions:<br>
 > - Multi WM and DE support out of the box.<br>
 > - Selecting Keyboard shortcut during installation.<br>
 > - Fixing some weird glitches with the rofi windows.<br>
+> - REDESIGN THE WHOLE THING
